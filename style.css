@@ -1,0 +1,66 @@
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:Arial,sans-serif;
+}
+
+section{
+padding:100px 0;
+}
+
+#home{
+height:100vh;
+display:flex;
+align-items:center;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+}
+
+#home img{
+width:320px;
+}
+
+.progress{
+height:28px;
+margin-bottom:20px;
+}
+
+.progress-bar{
+width:0;
+transition:2s;
+font-weight:bold;
+}
+
+.card{
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+footer{
+background:#111;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.navbar{
+box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.btn-primary{
+padding:12px 35px;
+}
+
+.skill{
+margin-bottom:20px;
+}
+
+#img111{
+    height: 310px;
+    width: 400px;
+}
